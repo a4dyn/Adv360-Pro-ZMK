@@ -2,25 +2,25 @@ macro_select_all_righ: macro_select_all_righ{
 compatible = "zmk,behavior-macro";
 label = "macro_select_all_righ";
 #binding-cells = <0>;
-bindings = <&sk LCMD>, <&sk LSHFT>, <&sk RIGHT>;
+bindings = <&kp LG(LS(RIGHT))>;
 };
 macro_select_all_left: macro_select_all_left{
 compatible = "zmk,behavior-macro";
 label = "macro_select_all_left";
 #binding-cells = <0>;
-bindings = <&sk LCMD>, <&sk LSHFT>, <&sk LEFT>;
+bindings = <&kp LG(LS(LEFT))>;
 };
 macro_select_right: macro_select_right{
 compatible = "zmk,behavior-macro";
 label = "macro_select_right";
 #binding-cells = <0>;
-bindings = <&sk LALT>, <&sk LSHIFT>, <&sk RIGHT>;
+bindings = <&kp LA(LS(RIGHT))>;
 };
 macro_select_left: macro_select_left{
 compatible = "zmk,behavior-macro";
 label = "macro_select_left";
 #binding-cells = <0>;
-bindings = <&sk LALT>, <&sk LSHFT>, <&sk RIGHT>;
+bindings = <&kp LA(LG(LEFT))>;
 };
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
